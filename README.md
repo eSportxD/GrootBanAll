@@ -15,5 +15,7 @@
 
 ## Credit
 
-• [Blaze](https://t.me/PiroXpowe) \n
+• [Blaze](https://t.me/PiroXpower)
+
+
 • [Shailendra](https://t.me/Shailendra34)
