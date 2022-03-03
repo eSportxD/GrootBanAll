@@ -31,7 +31,7 @@
             "value": "",
             "required": true
         },
-        "API_ID": {
+        "API_KEY": {
             "description": "Get from https://my.telegram.org",
             "value": "",
             "required": true
