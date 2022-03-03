@@ -3,7 +3,7 @@
     "name": "Ban All Bot",
     "description": "help you to ban the all memebers from the group",
     "repository": "https://github.com/Shailendra34/BanAllBot",
-    "logo": "https://telegra.ph/file/238bc60ed5cee135acf00.jpg",
+    "logo": "https://te.legra.ph/file/6b99ffd7c2b359bfc599d.jpg",
     "keywords": [
         "python",
         "telegram"
@@ -31,7 +31,7 @@
             "value": "",
             "required": true
         },
-        "API_KEY": {
+        "API_ID": {
             "description": "Get from https://my.telegram.org",
             "value": "",
             "required": true
