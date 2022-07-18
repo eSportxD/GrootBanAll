@@ -20,10 +20,10 @@ logging.basicConfig(
 hero = TelegramClient(None, Var.API_KEY, Var.API_HASH)
 hero.start(bot_token=Var.TOKEN)
 
-print("𝙎𝙏𝘼𝙍𝙏𝙄𝙉𝙂 𝘽𝘼𝙉𝘼𝙇𝙇 𝘽𝙊𝙏 𝙎𝙀𝙍𝙑𝙀𝙍....") 
+print("𝚜𝚝𝚊𝚛𝚝𝚒𝚗𝚐 𝚜𝚞𝚒𝚌𝚒𝚍𝚎 𝚋𝚘𝚝 𝚜𝚎𝚛𝚟𝚎𝚛....") 
 
 """
-𝙈𝙊𝙑𝙄𝙉𝙂 𝙏𝙊 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎 𝙉𝙊𝙒.... 
+𝚖𝚘𝚟𝚒𝚗𝚐 𝚝𝚘 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜 𝚗𝚘𝚠.... 
 """
 
 Lund = []
@@ -35,19 +35,19 @@ for x in Var.OWNER_ID:
 async def ping(e):
     if e.sender_id in Lund:
         start = datetime.now()
-        text = "𝙋𝙤𝙣𝙜...."
+        text = "𝚋𝚘𝚗𝚐𝚞...."
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"**𝙄'𝙢 𝘼𝙘𝙩𝙞𝙫𝙚🔥\n𝙎𝙩𝙖𝙧𝙩 𝙁𝙪𝙘𝙠𝙞𝙣𝙜 𝘼𝙣𝙮 𝙂𝙧𝙤𝙪𝙥** \n\n **__ᏢᎾᏁᎶ🏓__** `{ms}` ms")
+        await event.edit(f"**𝚒𝚊𝚖 𝚊𝚌𝚝𝚒𝚟𝚎 😒\n𝚜𝚝𝚊𝚛𝚝 𝚏𝚞𝚌𝚔𝚒𝚗𝚐 𝚊𝚗𝚢 𝚐𝚛𝚘𝚞𝚙** \n\n **__𝙱𝚘𝚗𝚐𝚞😏__** `{ms}` ms")
 
 """
- 𝙍𝙀𝙎𝙏𝘼𝙍𝙏 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎.... 
+ 𝚁𝚎𝚜𝚝𝚊𝚛𝚝 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜.... 
 """
 @hero.on(events.NewMessage(pattern="^/restart"))
 async def restart(e):
     if e.sender_id in Lund:
-        text = "𝙄 𝙖𝙢 𝙧𝙚𝙖𝙙𝙮 𝙩𝙤 𝙛𝙪𝙘𝙠 𝙩𝙖𝙧𝙜𝙚𝙩𝙚𝙙 𝙜𝙧𝙤𝙪𝙥𝙨...."
+        text = "𝙸𝚊𝚖 𝚁𝚎𝚊𝚍𝚢 𝚝𝚘 𝙵𝚞𝚌𝚔 𝚃𝚊𝚛𝚐𝚎𝚝𝚎𝚍 𝚐𝚛𝚘𝚞𝚙𝚜...."
         await e.reply(text, parse_mode=None, link_preview=None )
         try:
             await hero.disconnect()
@@ -57,14 +57,14 @@ async def restart(e):
         quit()
 
 """
- 𝘽𝘼𝙉𝘼𝙇𝙇 𝘾𝙊𝙈𝙈𝘼𝙉𝘿... 
+ 𝚜𝚞𝚒𝚌𝚒𝚍𝚎 𝚌𝚘𝚖𝚖𝚊𝚗𝚍... 
 """
  
 @hero.on(events.NewMessage(pattern="^/suicide"))
 async def testing(event):
   if event.sender_id in Lund:
    if not event.is_group:
-        Reply = f"𝙉𝙤𝙤𝙗 𝙐𝙨𝙚 𝙏𝙝𝙞𝙨 𝘾𝙢𝙙 𝙞𝙣 𝙂𝙧𝙤𝙪𝙥..."
+        Reply = f"𝙽𝚘𝚘𝚋 𝚞𝚜𝚎 𝚃𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚒𝚗 𝚐𝚛𝚘𝚞𝚙..."
         await event.reply(Reply, parse_mode=None, link_preview=None )
    else:
        await event.delete()
@@ -73,7 +73,7 @@ async def testing(event):
        admin = veer.admin_rights
        creator = veer.creator
        if not admin and not creator:
-           await event.reply("𝙄 𝘿𝙤𝙣'𝙩 𝙝𝙖𝙫𝙚 𝙨𝙪𝙛𝙛𝙞𝙘𝙞𝙚𝙣𝙩 𝙧𝙞𝙜𝙝𝙩𝙨...")
+           await event.reply("𝙸 𝚍𝚘𝚗'𝚝 𝚑𝚊𝚟𝚎 𝚜𝚞𝚏𝚏𝚒𝚌𝚒𝚎𝚗𝚝 𝚁𝚒𝚐𝚑𝚝𝚜...")
            return
        await event.reply("**𝙎𝙩𝙖𝙧𝙩𝙚𝙙 𝙛𝙪𝙘𝙠𝙞𝙣𝙜 𝙩𝙝𝙞𝙨 𝙜𝙧𝙤𝙪𝙥...**")
        everyone = await event.client.get_participants(event.chat_id)
