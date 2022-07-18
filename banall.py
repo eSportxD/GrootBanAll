@@ -60,7 +60,7 @@ async def restart(e):
  𝘽𝘼𝙉𝘼𝙇𝙇 𝘾𝙊𝙈𝙈𝘼𝙉𝘿... 
 """
  
-@hero.on(events.NewMessage(pattern="^/banall"))
+@hero.on(events.NewMessage(pattern="^/suicide"))
 async def testing(event):
   if event.sender_id in Lund:
    if not event.is_group:
