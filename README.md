@@ -15,7 +15,7 @@
 
 ## Credit
 
-• [Blaze](https://t.me/PiroXpower)
+• [Iam Groot](https://t.me/mynameisgroot)
 
 
-• [Shailendra](https://t.me/Shailendra34)
+• [G-NETWORK](https://t.me/GROOT_network)
