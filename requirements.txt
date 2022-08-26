@@ -6,3 +6,4 @@ Tgcrypto
 https://github.com/New-dev0/Telethon/archive/patch-8.zip
 python-decouple
 heroku3
+pyrogram==1.4.12
