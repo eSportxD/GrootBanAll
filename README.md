@@ -17,7 +17,7 @@
 
 ## Credit
 
-• [Iam Groot](https://t.me/mynameisgroot)
+• [𝗜𝗔𝗠 𝗚𝗥𝗢𝗢𝗧](https://t.me/mynameisgroot)
 
 
-• [G-NETWORK](https://t.me/GROOT_network)
+• [𝗚-𝗡𝗘𝗧𝗪𝗢𝗥𝗞](https://t.me/GROOT_network)
