@@ -15,11 +15,11 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 # 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀
-. /ping
+★ /ping
 
-. /restart
+★ /restart
 
-. /suicide
+★ /suicide
 
 ## Credit
 
