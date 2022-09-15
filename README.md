@@ -16,7 +16,9 @@
 
 # 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀
 . /ping
+
 . /restart
+
 . /suicide
 
 ## Credit
