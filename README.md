@@ -1,4 +1,6 @@
 # 🇬𝗥𝗢𝗢𝗧🇧𝗔𝗡🇦𝗟𝗟 
+# 🇳 🇴 🇹 🇪 
+# Don't Import or Forked This Repo, if you Import or Forked your account will be lost
 
 <p align="center"><img src="https://te.legra.ph/file/1a600ff2a12b3e15cc708.jpg" alt="ICON" width="250" height="250"/></p>
 
