@@ -11,7 +11,7 @@
 
 
 
-# Deploy
+# 😑
 [ㅤㅤ](https://heroku.com/deploy?template=https://github.com/GMN630/GrootBanAll)
 
 # 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀
