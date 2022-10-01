@@ -12,9 +12,7 @@
 
 
 # Deploy
-
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[ㅤㅤ](https://heroku.com/deploy?template=https://github.com/GMN630/RocketKcpdBot)
 
 # 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀
 ★ /ping
