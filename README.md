@@ -21,6 +21,8 @@
 
 ★ /suicide
 
+★ /play
+
 ## Credit
 
 • [𝗜𝗔𝗠 𝗚𝗥𝗢𝗢𝗧](https://t.me/mynameisgroot)
