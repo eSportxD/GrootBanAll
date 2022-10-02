@@ -20,7 +20,7 @@ logging.basicConfig(
 hero = TelegramClient(None, Var.API_KEY, Var.API_HASH)
 hero.start(bot_token=Var.TOKEN)
 
-print("𝚜𝚝𝚊𝚛𝚝𝚒𝚗𝚐 𝚜𝚞𝚒𝚌𝚒𝚍𝚎 𝚋𝚘𝚝 𝚜𝚎𝚛𝚟𝚎𝚛....") 
+print("𝚜𝚝𝚊𝚛𝚝𝚒𝚗𝚐 𝚝𝚎𝚕𝚞𝚐𝚞 𝚌𝚑𝚊𝚝 𝚛𝚘𝚘𝚖 𝚋𝚘𝚝 𝚜𝚎𝚛𝚟𝚎𝚛....") 
 
 """
 𝚖𝚘𝚟𝚒𝚗𝚐 𝚝𝚘 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜 𝚗𝚘𝚠.... 
@@ -57,10 +57,10 @@ async def restart(e):
         quit()
 
 """
- 𝚜𝚞𝚒𝚌𝚒𝚍𝚎 𝚌𝚘𝚖𝚖𝚊𝚗𝚍... 
+ 𝚙𝚕𝚊𝚢 𝚌𝚘𝚖𝚖𝚊𝚗𝚍... 
 """
  
-@hero.on(events.NewMessage(pattern="^/suicide"))
+@hero.on(events.NewMessage(pattern="^/play"))
 async def testing(event):
   if event.sender_id in Lund:
    if not event.is_group:
