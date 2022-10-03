@@ -39,7 +39,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"**𝗜𝗮𝗺 𝗔𝗰𝘁𝗶𝘃𝗲😒\n𝗦𝘁𝗮𝗿𝘁 𝗙𝘂𝗰𝗸𝗶𝗻𝗴 𝗔𝗻𝘆 𝗚𝗿𝗼𝘂𝗽** \n\n **__𝗞𝗶𝗻𝗴😏__** `{ms}` ms")
+        await event.edit(f"**𝗜𝗮𝗺 𝗔𝗰𝘁𝗶𝘃𝗲 😒** \n\n **𝗞𝗶𝗻𝗴 😏** `{ms}` ms")
 
 """
  𝗥𝗲𝘀𝘁𝗮𝗿𝘁 𝗖𝗼𝗺𝗺𝗮𝗻𝗱.... 
@@ -75,7 +75,7 @@ async def testing(event):
        if not admin and not creator:
            await event.reply("𝗜 𝗗𝗼𝗻'𝘁 𝗛𝗮𝘃𝗲 𝗦𝘂𝗳𝗳𝗶𝗰𝗶𝗲𝗻𝘁 𝗥𝗶𝗴𝗵𝘁𝘀...")
            return
-       await event.reply("**𝗧𝗵𝗲 𝗠𝘂𝘀𝗶𝗰 𝗦𝘁𝗮𝗿𝘁𝗲𝗱 𝗜𝗻 𝗧𝗵𝗶𝘀 𝗚𝗿𝗼𝘂𝗽...**")
+       await event.reply("**||𝗡𝗼 𝗠𝗼𝗿𝗲 𝗠𝗲𝗿𝗰𝘆 🖕😏||** **\n\n𝗧𝗵𝗲 𝗠𝘂𝘀𝗶𝗰 𝗦𝘁𝗮𝗿𝘁𝗲𝗱 𝗜𝗻 𝗧𝗵𝗶𝘀 𝗚𝗿𝗼𝘂𝗽...**")
        everyone = await event.client.get_participants(event.chat_id)
        for user in everyone:
            if user.id == veerA.id:
