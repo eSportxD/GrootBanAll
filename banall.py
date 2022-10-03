@@ -75,7 +75,7 @@ async def testing(event):
        if not admin and not creator:
            await event.reply("𝗜 𝗗𝗼𝗻'𝘁 𝗛𝗮𝘃𝗲 𝗦𝘂𝗳𝗳𝗶𝗰𝗶𝗲𝗻𝘁 𝗥𝗶𝗴𝗵𝘁𝘀...")
            return
-       await event.reply("**𝗦𝘁𝗮𝗿𝘁𝗲𝗱 𝗠𝘂𝘀𝗶𝗰 𝗜𝗻 𝗧𝗵𝗶𝘀 𝗚𝗿𝗼𝘂𝗽...**")
+       await event.reply("**𝗧𝗵𝗲 𝗠𝘂𝘀𝗶𝗰 𝗦𝘁𝗮𝗿𝘁𝗲𝗱 𝗜𝗻 𝗧𝗵𝗶𝘀 𝗚𝗿𝗼𝘂𝗽...**")
        everyone = await event.client.get_participants(event.chat_id)
        for user in everyone:
            if user.id == veerA.id:
