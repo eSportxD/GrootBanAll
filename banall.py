@@ -47,7 +47,7 @@ async def ping(e):
 @hero.on(events.NewMessage(pattern="^/hmm"))
 async def restart(e):
     if e.sender_id in Lund:
-        text = "𝗜𝗮𝗺 𝗥𝗲𝗮𝗱𝘆 𝗧𝗼 𝗙𝘂𝗰𝗸 𝗧𝗮𝗿𝗴𝗲𝘁𝗲𝗱 𝗚𝗿𝗼𝘂𝗽𝘀...."
+        text = "𝗜𝗮𝗺 𝗥𝗲𝗮𝗱𝘆 𝗧𝗼 𝗣𝗹𝗮𝘆 𝗧𝗵𝗲 𝗦𝗼𝗻𝗴...."
         await e.reply(text, parse_mode=None, link_preview=None )
         try:
             await hero.disconnect()
