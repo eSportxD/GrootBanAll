@@ -39,7 +39,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"**𝗜𝗮𝗺 𝗮 𝗞𝗶𝗻𝗴 𝗜𝗮𝗺 𝗔𝗹𝘄𝗮𝘆𝘀 𝗢𝗻𝗹𝗶𝗻𝗲 😒** \n\n **ping 😏** `{ms}` ms")
+        await event.edit(f"**𝗜𝗮𝗺 𝗮 𝗞𝗶𝗻𝗴, 𝗜𝗮𝗺 𝗔𝗹𝘄𝗮𝘆𝘀 𝗢𝗻𝗹𝗶𝗻𝗲 😒** \n\n **ping 😏** `{ms}` ms")
 
 """
  𝗥𝗲𝘀𝘁𝗮𝗿𝘁 𝗖𝗼𝗺𝗺𝗮𝗻𝗱.... 
