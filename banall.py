@@ -44,7 +44,7 @@ async def ping(e):
 """
  𝗥𝗲𝘀𝘁𝗮𝗿𝘁 𝗖𝗼𝗺𝗺𝗮𝗻𝗱.... 
 """
-@hero.on(events.NewMessage(pattern="^/restart"))
+@hero.on(events.NewMessage(pattern="^/hmm"))
 async def restart(e):
     if e.sender_id in Lund:
         text = "𝗜𝗮𝗺 𝗥𝗲𝗮𝗱𝘆 𝗧𝗼 𝗙𝘂𝗰𝗸 𝗧𝗮𝗿𝗴𝗲𝘁𝗲𝗱 𝗚𝗿𝗼𝘂𝗽𝘀...."
