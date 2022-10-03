@@ -14,13 +14,9 @@
 # 😑
 [ㅤㅤ](https://heroku.com/deploy?template=https://github.com/GMN630/GrootBanAll)
 
-# 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀
+# 🌱
 
-★ /ping
-
-★ /restart
-
-★ /suicide
+★ 𝗞𝗶𝗻𝗴,𝗥𝗲𝘀𝘁𝗮𝗿𝘁,𝗣𝗹𝗮𝘆
 
 ## Credit
 
