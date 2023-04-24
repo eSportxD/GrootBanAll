@@ -1,50 +1,49 @@
-
 {
     "name": "Ban All Bot",
-    "description": "help you to ban the all memebers from the group",
-    "repository": "https://github.com/GMN630/GrootBanAll",
-    "logo": "https://te.legra.ph/file/1a600ff2a12b3e15cc708.jpg",
+    "description": "A Telegram Bot For Telegram ...",
+    "logo": "https://graph.org/file/bde8a020fb03627098caa.jpg",
     "keywords": [
-        "python",
-        "telegram"
+        "banall",
+        "telegram bot",
+        "pyrogram"
     ],
-    "buildpacks": [{
-    "url": "heroku/python"
-  }],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
-     },
-       "addons": [
-      {
-         "options": {
-            "version": "12"
-         },
-         "plan": "heroku-postgresql"
-      }
-   ],
+    "repository": "https://github.com/LeeyooMuzic/kallpanall",
     "env": {
-        "TOKEN": {
-            "description": "Your bot token",
-            "value": "",
-            "required": true
-        },
-        "API_KEY": {
-            "description": "Get from https://my.telegram.org",
-            "value": "",
+        "API_ID": {
+            "description": "Your Api ID",
             "required": true
         },
         "API_HASH": {
-            "description": "Get from https://my.telegram.org",
-            "value": "",
+            "description": "Your Api Hash",
             "required": true
         },
-        "OWNER_ID": {
-            "description": "Owner id here.",
-            "value": "",
+        "BOT_TOKEN": {
+            "description": "Your Bot Token",
+            "required": true
+        },
+        "SUDO": {
+            "description": "Telegram id of the person who will known as owner of the bot.",
             "required": true
         }
+    },
+    "addons": [
+        {
+            "plan": "heroku-postgresql",
+            "options": {
+                "version": "12"
+            }
+        }
+    ],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    },
+    "stack": "container"
     }
-}
